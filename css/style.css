@@ -159,9 +159,6 @@ section.special,
 article.special {
   text-align: center;
 }
-section#contact {
-  padding-bottom: 0
-}
 header p {
   color: #858585;
   position: relative;
