@@ -163,7 +163,7 @@ section#contact {
   padding-bottom: 0
 }
 header p {
-  color: #858585;
+  color: #16a085;
   position: relative;
   margin: 0 0 1.5em 0;
 }
@@ -732,12 +732,13 @@ body.landing #header nav a {
 /* Banner */
 
 #banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/pic03.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero-bg-01.jpg);
   background-position: center center;
   background-size: cover;
   color: #ffffff;
   padding: 14em 0em 14em;
   text-align: center;
+
 }
 #banner:last-child {
   margin-bottom: 0;
@@ -823,7 +824,22 @@ body.landing #header nav a {
   background-color: #fff;
   color: #444;
 }
-
+.wrapper.style4 {
+    background-color: #ffffff;
+    color: #000000
+}
+.wrapper.style4 img {
+    height: 25em;
+}
+.wrapper.style4 h4 {
+    float: center;
+    color: #3cadd4
+}
+@media only screen and (max-width: 800px) {
+    .wrapper.style4 img {
+        height: 7em;
+    }
+}
 /* Footer */
 
 #footer {

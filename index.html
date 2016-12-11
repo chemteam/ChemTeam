@@ -30,7 +30,8 @@
       <ul>
         <li><a class="smoothScroll" href="#about">About</a></li>
         <li><a class="smoothScroll" href="#team">Team</a></li>
-        <li><a href="#">Lectures</a></li>
+        <li><a class="smoothScroll" href="#schedule">Lectures</a></li>
+        <li><a class="smoothScroll" href="#3d">3D Visualizations</a></li>
         <li><a href="#contact" class="smoothScroll button special"><i class="fa fa-envelope-o"></i></a></li>
       </ul>
     </nav>
@@ -66,7 +67,7 @@
 
   <!-- Two -->
   <section id="team" class="wrapper style2 special">
-    <div class="container">
+    <div class="container" style="color:#3cadd4">
       <header class="major">
         <h2>Meet the Team</h2>
         <p>The people that make Chemistry Team possible</p>
@@ -118,6 +119,111 @@
     </div>
   </section>
 
+  <section id="schedule" class="wrapper style2 special" style="background-color: #16a085; color:#ffffff">
+    <div class="container">
+      <header class="major">
+        <h2 style="color:#ffffff">Schedule</h2>
+        <p style="color:#ffffff">What we are doing this year</p>
+      </header>
+      <div class="row">
+        <section class="6u">
+            <p>
+              9/30/16 - Lecture</br>
+              10/7/16 - Lecture</br>
+              10/14/16 - Lecture</br>
+              10/21/16 - Lecture</br>
+              10/28/16 - Lecture</br>
+              11/4/16 - Lecture</br>
+              11/11/16 - Lecture</br>
+              11/18/16 - Lecture</br>
+              11/25/16 - Lecture</br>
+              12/2/16 - Lecture</br>
+              12/9/16 - Lecture</br>
+              12/16/16 - Lecture</br>
+              12/23/16 - Winter Break</br>
+              12/30/16 - Winter Break</br>
+              1/6/17 - Winter Break</br>
+              1/13/17 - Lecture</br>
+              1/20/17 - Lecture</br>
+              1/27/17 - Lecture</br>
+              2/3/17 - Lecture</br>
+            </p>
+        </section>
+        <section class="6u">
+            <p>
+              2/10/17 - Lecture</br>
+              2/17/17 - Lecture</br>
+              2/24/17 - Lecture</br>
+              3/3/17 - Lecture</br>
+              3/10/17 - Lecture</br>
+              3/17/17 - Lecture</br>
+              3/24/17 - Lecture</br>
+              3/31/17 - Lecture</br>
+              4/7/17 - Lecture</br>
+              4/14/17 - Lecture</br>
+              4/21/17 - Lecture</br>
+              4/28/17 - Lecture</br>
+              5/5/17 - Lecture</br>
+              5/12/17 - Lecture</br>
+              5/19/17 - Lecture</br>
+              5/26/17 - Lecture</br>
+              5/2/17 - Lecture</br>
+              6/9/17 - Lecture</br>
+              6/16/17 - Elections</br>
+              6/23/17 - End of School!</br>
+            </p>
+        </section>
+      </div>
+      <header class="major">
+          <p style="color:#ffffff">Links to lecture presentations are coming soon!</p>
+      </header>
+    </div>
+  </section>
+
+
+  <section id="3d" class="wrapper style4">
+    <div class="container">
+      <header class="major">
+        <h2>3D Visualizations</h2>
+      </header>
+      <div class="row">
+          <section class="6u">
+              <p>Using state of the art WebGL and the latest Chemdoodle Web Components open-source html toolkit, we're able to bring molecular structures to life in the simplicity of your browser. Make sure you're using a modern brower (not Internet Explorer) to view these fully interactive 3D structures!</p>
+          </section>
+          <section class="6u">
+              <p>3-Dimensional visualizations allow for a more immersive, visual learning environment, both during the lectures and for those studying outside the club. Chemdoodle Web Components is availabe for free under the open-source GPL license, and you can download the source code for these molecules here.</p>
+          </section>
+      </div>
+      <div class="row">
+        <section class="6u">
+          <a href="chem/vis/webgl_transformer_2OEY_3D_NucleicAcid.html">
+              <img src="images/dna.jpg" alt="" />
+              <h4>Deoxyribonucleic Acid</h4>
+          </a>
+        </section>
+        <section class="6u">
+          <a href="chem/vis/webgl_transformer_MAZ_3D_Crystal.html">
+              <img src="images/structure.jpg" alt="" />
+              <h4>Crystal Matrix Structure</h4>
+          </a>
+        </section>
+      </div>
+      <div class="row">
+        <section class="6u">
+          <a href="chem/vis/webgl_transformer_1CRN_3D_Ribbon.html">
+              <img src="images/protein.jpg" alt="" />
+              <h4>Protein Ribbon Diagram</h4>
+          </a>
+        </section>
+        <section class="6u" clear:none;>
+            <a href="chem/vis/webgl_transformer_DDT_3D_ballnstick.html">
+              <img src= "images/molecule.jpg" alt="" />
+              <h4>Ball and Stick Model: DDT</h4>
+            </a>
+        </section>
+      </div>
+    </div>
+  </section>
   <!-- Three -->
   <section id="contact" class="wrapper style3 special">
     <div class="container">
@@ -147,14 +253,13 @@
 
     </script>
   </section>
-
   <!-- Footer -->
   <footer id="footer">
     <div class="container">
       <div class="row">
         <div class="8u 12u$(medium)">
           <ul class="copyright">
-            <li>&copy; TJ Chemistry Team. All rights reserved.</li>
+            <li><a href="https://github.com/nikhilsardana/chemteam">Open Source.</a> Made with <i class="fa fa-flask fa-lg"></i> by <a href="https://github.com/nikhilsardana">Nikhil Sardana</a></li>
           </ul>
         </div>
         <div class="4u$ 12u$(medium)">
@@ -163,7 +268,7 @@
               <a class="icon rounded fa-facebook" href="https://www.fb.com/groups/1438564596409906/"><span class="label">Facebook</span></a>
             </li>
             <li>
-              <a class="icon rounded fa-envelope-o color4" href="#"><span class="label">Email</span></a>
+              <a class="icon rounded fa-envelope-o color4" href="mailto:tjchemistryteam@gmail.com"><span class="label">Email</span></a>
             </li>
           </ul>
         </div>
