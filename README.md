@@ -1,2 +1,2 @@
 # ChemTeam
-Official TJHSST Chemistry Team 2016-18 website
+Official TJHSST Chemistry Team website
